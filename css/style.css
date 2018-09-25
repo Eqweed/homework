@@ -48,9 +48,6 @@ hr{
 .right {
   float: right
 }
-.left {
-  float: left
-}
 .clear{
   clear both
 }
@@ -67,7 +64,7 @@ header {
   border-bottom: 2px solid silver;
   padding: 1%;
 }
-#logo {
+.logo {
   margin-left: 3%;
   font-size: 2em;
   font-family: Comic Sans MS;
@@ -79,6 +76,12 @@ header {
   font-family: Comic Sans MS;
   margin-right: 40px;
 }
+.Registr{
+ margin-right: 3%;
+   font-size: 2em;
+   font-family: Comic Sans MS;
+   float: right;
+}
 input.field {
     border-radius: 5px;
     border: 3px solid blue;
@@ -89,39 +92,41 @@ input.field {
 input.field:focus {
   border: 2px solid #3399FF;
 }
-#menu {
+
+
+.menu {
   color: white;
   font-family: Conic Sans MS, sans-serif;
   font-size: 7en;
 }
-#menu hr {
+.menu hr {
   width: 500px;
   max-width: 100%;
   margin-top: 5px;
   margin-bottom: 10px;
   color: white;
 }
-#menuHrefs a {
+.menuHrefs a {
   padding: 5px;
   border-radius: 5 px;
   margin-right: 5 px;
   color: white;
 }
-#menuHrefs a:hover {
+.menuHrefs a:hover {
   background-color: #00CCFF;
 }
 /*style for web*/
-#wrapper {
+.wrapper {
   float: left;
   width: 100%;
   margin-top: 20px;
 }
-#wrapper #articles{
+.wrapper .articles{
   float: left;
   width:80%;
   margin-left:10%;
 }
-#wrapper #articles article {
+.wrapper .articles article {
   float: left;
   width: 31.33%;
   border: 1px solid silver;
@@ -131,26 +136,26 @@ input.field:focus {
   margin-right: 2%;
   min-height: 330px;
 }
-#wrapper #articles article img {
+.wrapper .articles article img {
   width: 100%;
   height 200px;
   border-radius: 5px 5px 0px 0px;
   border-bottom: 1px solid blue;
   margin-bottom: 10px;
 }
-#wrapper #articles article h2 {
+.wrapper .articles article h2 {
   width: 90%;
   margin left: 5%;
   font-weight: normal;
   font-size: 1.7em;
   color: #000033;
 }
-#wrapper #articles article p {
+.wrapper .articles article p {
   width: 80%;
   margin-left: 10%;
   text-indent: 1em;
 }
-#wrapper #articles article a {
+.wrapper .articles article a {
   color: #000033;
 }
 
@@ -166,19 +171,18 @@ footer img {
   float: left;
   margin-right: 5px;
 }
-#page-wrap: after {
+.page-wrap: after {
   content: "";
   display: bloc;
 }
-footer,#page-wrap: after {height: 10px}
+footer,page-wrap: after {height: 10px}
 #page-wrap{
   min-height: 90%;
   margin-bottom: -10px;
 }
-#video {
+.video {
   width: 500px;
     max-width: 100%;
     margin-top: 100px;
     margin-bottom: 10px;
-
-  }
+    margin-left: 500px;
